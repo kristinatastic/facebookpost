@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356081D2194E2EFE0046F8E5 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356081D0194E2EFE0046F8E5 /* PostViewController.m */; };
+		356081D3194E2EFE0046F8E5 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356081D1194E2EFE0046F8E5 /* PostViewController.xib */; };
 		358875C41947A5420088F3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358875C31947A5420088F3B8 /* Foundation.framework */; };
 		358875C61947A5420088F3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358875C51947A5420088F3B8 /* CoreGraphics.framework */; };
 		358875C81947A5420088F3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358875C71947A5420088F3B8 /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		356081CF194E2EFE0046F8E5 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		356081D0194E2EFE0046F8E5 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		356081D1194E2EFE0046F8E5 /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
 		358875C01947A5420088F3B8 /* facebookpost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookpost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358875C31947A5420088F3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		358875C51947A5420088F3B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +112,7 @@
 		358875C91947A5420088F3B8 /* facebookpost */ = {
 			isa = PBXGroup;
 			children = (
+				358875FA1947AC060088F3B8 /* View Controllers */,
 				358875D21947A5420088F3B8 /* AppDelegate.h */,
 				358875D31947A5420088F3B8 /* AppDelegate.m */,
 				358875D51947A5420088F3B8 /* Images.xcassets */,
@@ -142,6 +148,16 @@
 				358875E51947A5420088F3B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358875FA1947AC060088F3B8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				356081CF194E2EFE0046F8E5 /* PostViewController.h */,
+				356081D0194E2EFE0046F8E5 /* PostViewController.m */,
+				356081D1194E2EFE0046F8E5 /* PostViewController.xib */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356081D3194E2EFE0046F8E5 /* PostViewController.xib in Resources */,
 				358875CE1947A5420088F3B8 /* InfoPlist.strings in Resources */,
 				358875D61947A5420088F3B8 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356081D2194E2EFE0046F8E5 /* PostViewController.m in Sources */,
 				358875D41947A5420088F3B8 /* AppDelegate.m in Sources */,
 				358875D01947A5420088F3B8 /* main.m in Sources */,
 			);
@@ -439,6 +457,7 @@
 				358875EE1947A5420088F3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		358875EF1947A5420088F3B8 /* Build configuration list for PBXNativeTarget "facebookpostTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +466,7 @@
 				358875F11947A5420088F3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
