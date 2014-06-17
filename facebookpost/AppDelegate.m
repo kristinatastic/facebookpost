@@ -16,11 +16,19 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     PostViewController *vc = [[PostViewController alloc] init];
     
+    // Navigation controller
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
-    
     self.window.rootViewController = navigationController;
+    
+//    Tab bar controller
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+//    self.window.rootViewController = tabBarController;
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     
